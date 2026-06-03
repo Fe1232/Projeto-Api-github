@@ -11,5 +11,6 @@ public class GitHubUserView {
         System.out.println("Id do usuário:   " + user.id());
         System.out.println("Tipo de usuário: " + user.userViewType());
         System.out.println("Repositórios:    " + user.publicRepos());
+        System.out.println("\n\nVocê gostaria de salvar os dados em um arquivo .txt? (Sim/Não)");
     }
 }
